@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+
+
+
+body 
+{
+	background-image: url("wall2.jpg");
+	margin-left: 10px;
+	padding: 2%;
+}
+
+div
+{
+	margin: 10px;
+	padding: 5%;
+}
+
+.form-control
+{
+	width: 100px;
+}
+a:link, a:visited {
+    background-color: white;
+    color: gray;
+    padding: 2px 2px;
+  	margin:5px;
+  	display: block;
+  	width:60px;
+    height:25px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+	    
+}
+
+
+a:hover, a:active {
+    background-color: black;
+}
+
+input[type=submit] {
+    background-color: navy; /* Green */
+    border: none;
+    margin-top: 5%;
+    
+    color: white;
+    width:130px;
+    height:30px;
+    text-align: center;
+   
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 14px;
+}
